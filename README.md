@@ -15,3 +15,4 @@ The second imix will transfer packets to and from the Raspberry Pi using SLIP.
 
 ## Files related to this repo:
 - [`radio_rx_slip_tx`](https://github.com/mog96/tock/tree/mog-radio-slip/userland/examples/radio_rx_slip_tx): Tock userspace program that implements SLIP in one direction. Writes all radio packets received to serial using `printf()`.
+- [`pyCCSniffer`](https://github.com/ptcrews/pyCCSniffer): Uses a Texas Instruments CC2531emk USB dongle to sniff packets, dissect them, and stuff them into a WPAN interface on Linux.
