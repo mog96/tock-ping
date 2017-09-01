@@ -12,6 +12,7 @@ The second imix will transfer packets to and from the Raspberry Pi using SLIP.
 ## Files in this repo:
 - [`serial_log.py`](https://github.com/mog96/tock-ping/blob/master/serial_log.py): Reads from serial on the Raspberry Pi and prints to the console.
 - [`tun_ping.py`](https://github.com/mog96/tock-ping/blob/master/tun_ping.py): An first stab at stuffing raw bytes into a Linux network interface by setting up a tunnel device.
+- [`setup_interfaces.sh`](https://github.com/mog96/tock-ping/blob/master/setup_interfaces.sh): Sets up wpan and lowpan interfaces on the Raspberry Pi.
 
 ## Files related to this repo:
 - [`radio_rx_slip_tx`](https://github.com/mog96/tock/tree/mog-radio-slip/userland/examples/radio_rx_slip_tx): Tock userspace program that implements SLIP in one direction. Writes all radio packets received to serial using `printf()`.
